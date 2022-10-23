@@ -11,4 +11,5 @@ LoggerService logger = new LoggerService();
 
 Client client = new Client(logger);
 client.Create();
-
+client.Update();
+client.Delete();
